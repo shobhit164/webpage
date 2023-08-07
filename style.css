@@ -1,0 +1,160 @@
+h1{
+    color: #282828;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    margin-bottom: 22px;
+} 
+
+p{
+    color: #484848;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    margin-bottom:22px;
+}
+
+b{
+    color: #282828;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%; 
+    
+}
+
+.email-box , .button-box {
+    display:inline-block;
+    
+}
+
+input{
+    color: #888;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+    border-radius: 6px;
+    width: 29vh;
+    border: 4px solid black;
+    margin-top: 22px;
+    height: 47px;
+}
+
+button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #282828;
+    border-radius: 6px;
+    border: none;
+    height:57px ;
+    width: 20vh;
+    cursor: pointer;
+
+}
+
+strong{
+    color: #282828;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%; 
+}
+
+.bottom-label{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    margin-top: 15px;
+    margin-right: 230px;
+}
+
+.main-header{
+    display:flex;
+    background-color:#FFCD9E ;   
+    height: 70vh;
+
+}
+
+.main-footer{
+    display: flex;
+    background-color: #282828;
+    height: 20vh;
+    padding: 60px;
+    padding-top: 60px;
+
+}
+
+.div-left{
+    justify-content: space-between !important;  
+    padding:90px;
+    margin-left:40px; 
+    margin-top:40px;
+    margin-right:40px;
+    margin-bottom:40px
+}
+
+.div-right{
+    justify-content: space-between !important; 
+    padding:90px;
+    margin-right:40px;
+    
+}
+
+/* 
+div > img{
+    height:60vh;
+    width:60vh;
+}
+    */
+
+.div-left1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    width: 70vh;
+    padding-left: 30px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+  
+.div-right1{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    width: 80vh;
+    padding-right: 60px;;
+
+      
+}
+
+*{
+    margin: 0;
+    justify-content: space-between !important;
+}
